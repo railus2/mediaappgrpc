@@ -1,2 +1,14 @@
-package org.example.mediaserver.model;public class CreatorModel {
+package org.example.mediaserver.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class CreatorModel {
+    private String id;
+    private String name;
+    private String email;
 }

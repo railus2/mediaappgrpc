@@ -1,2 +1,4 @@
-package org.example.mediaclient.Mapper;public class VideoMapper {
+package org.example.mediaclient.mapper;
+
+public class VideoMapper {
 }
