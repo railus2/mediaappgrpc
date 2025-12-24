@@ -14,7 +14,7 @@ public class CreatorDao {
 
     public CreatorDao() {
         // Données initiales (pour tester)
-        creators.put("2", new CreatorModel("2", "Xproce", "hirchoua.badr@gmail.com"));
+        creators.put("2", new CreatorModel("2", "Bobb", "Bob@gmail.com"));
         creators.put("1", new CreatorModel("1", "Alice", "alice@example.com"));
     }
 

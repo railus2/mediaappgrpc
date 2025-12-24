@@ -17,15 +17,15 @@ public class VideoController {
     public VideoDto uploadVideo() {
 
         Creator creator = Creator.newBuilder()
-                .setName("Xproce")
-                .setEmail("hirchoua.badr@gmail.com")
+                .setName("Bobb")
+                .setEmail("Bob@gmail.com")
                 .setId("2")
                 .build();
 
         UploadVideoRequest request = UploadVideoRequest.newBuilder()
                 .setTitle("grpc 101")
                 .setDescription("The gRPC 101 is an introductory course to master Grpc")
-                .setUrl("https://github.com/badrhr/gRPC101")
+                .setUrl("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
                 .setDurationSeconds(380)
                 .setCreator(creator)
                 .build();
